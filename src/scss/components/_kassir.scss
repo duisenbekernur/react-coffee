@@ -1,0 +1,26 @@
+.wrapper {
+  .kassir-container {
+    padding: 50px;
+
+    td {
+      border: 1px solid #000;
+      padding: 15px;
+    }
+    th {
+      font-size: 20px;
+      border: 1px solid #000;
+      padding: 20px;
+    }
+  }
+  
+}
+
+.center {
+  display: flex;
+  justify-content: center;
+}
+
+.work-date {
+  text-align: center;
+  margin-bottom: 20px;
+}

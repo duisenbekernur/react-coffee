@@ -1,0 +1,19 @@
+.root {
+  display: flex;
+  align-items: center;
+  img {
+    margin-left: -30px;
+    height: 25px;
+
+    &:hover {
+      cursor: pointer;
+    }
+  }
+
+  input {
+    width: 300px;
+    padding: 10px 20px;
+    border: 1px solid rgba(0, 0, 0, 0.3);
+    border-radius: 10px;
+  }
+}

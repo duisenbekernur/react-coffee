@@ -1,0 +1,22 @@
+.sign-page {
+  height: 80vh;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  gap: 50px;
+
+  li {
+    border: 1px solid rgba(0, 0, 0, 0.171);
+    padding: 15px;
+    border-radius: 15px;
+    cursor: pointer;
+
+    transition: .2s all;
+
+    &:hover {
+        background-color: rgb(83, 255, 232);
+    }
+  }
+}
